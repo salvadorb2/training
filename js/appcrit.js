@@ -30,7 +30,7 @@ var appcrit = (function () {
   		classCallCheck(this, appcrit);
 
   		this.ceteicean = c;
-  		this.variantBlocks = "tei-l,tei-speaker,tei-p";
+  		this.variantBlocks = "tei-l,tei-speaker,tei-p,tei-seg";
   		this.genId = 0;
   		this.dom = null;
   		this.references = {};

@@ -35,8 +35,8 @@
       <div type="section" xml:id="preface">
         <head>Conspectus Siglorum</head>
         <listWit>
-          <witness xml:id="M"><abbr type="siglum">Codex Mediceus Laurentianus Plut. 68.2 Saec.
-              XI</abbr></witness>
+          <witness xml:id="M"><abbr type="siglum">M</abbr> = Codex Mediceus Laurentianus Plut. 68.2 Saec.
+              XI</witness>
           <witness xml:id="L"><abbr type="siglum">L</abbr> = Codex Leidensis BPL 16 B</witness>
           <witness xml:id="Put."><abbr type="siglum">Put.</abbr> = Puteolanus 1476</witness>
           <witness xml:id="Spir."><abbr type="siglum">Spir.</abbr> = Spira 1472/3</witness>
@@ -73,12 +73,12 @@
           <head>Title of First Part</head>
           <ab n="27">
             <seg n="1">At postera luce duae praetoriae cohortes armatae templum Genetricis Veneris <app>
-                <lem source="#Stuttg2 #L #al. #Put.">insedere</lem><note>(Put.)</note>
+                <lem source="#Stuttg2 #L #al.">insedere</lem><note>(Put.)</note>
               </app>; aditum senatus globus togatorum obsederat non occultis gladiis, dispersique
               per fora ac basilicas cunei militares. inter quorum aspectus et minas ingressi curiam
               senatores, et oratio principis per quaestorem eius audita est</seg>: <seg n="2">nemine
               nominatim compellato patres arguebat, quod publica munia desererent eorumque exemplo
-              equites Romani ad segnitiam uerterentur. etenim quid mirum e longinquis provinciis <app>
+              equites Romani ad segnitiam <app> <lem source=" #M"></lem></app> uerterentur. etenim quid mirum e longinquis provinciis <app>
                 <lem source="#Lips.">haud ueniri</lem>
                 <rdg wit="#M">had ueniri</rdg>
                 <witDetail wit="#M">fort.</witDetail>
