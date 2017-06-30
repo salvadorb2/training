@@ -67,7 +67,7 @@
           <head>Title of First Part</head>
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         <l>Cui dono lepidum novum libellum</l>
-<l><app><lem wit="#servius #past #V">arida</lem></app> modo pumice expolitum?</l>
+<l><app><lem source="#servius #past #V">arida</lem></app> modo pumice expolitum?</l>
 <l>Corneli, tibi: namque tu solebas</l>
 <l>meas esse aliquid putare nugas</l>
 <l>iam tum, cum ausus es unus Italorum</l>
