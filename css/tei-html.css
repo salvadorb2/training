@@ -160,6 +160,11 @@ div.apparatus tei-app>tei-note {
   font-style: italic;
   margin-right: .5em;
 }
+div.apparatus tei-app>tei-rdggrp>tei-note {
+  display: inline;
+  font-style: italic;
+  margin-right: .5em;
+}
 
 
 /*TODO: figure out what to do with source lists.*/
