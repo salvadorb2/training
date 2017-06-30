@@ -35,16 +35,26 @@
       <div type="section" xml:id="preface">
         <head>Conspectus Siglorum</head>
         <listWit>
-          <witness xml:id="M"><abbr type="siglum">M</abbr> = Codex Mediceus Laurentianus Plut. 68.2
-            Saec. XI</witness>
+          <witness xml:id="M"><abbr type="siglum">M</abbr> = Codex Mediceus Laurentianus 68.2 Saec.
+            XI</witness>
           <witness xml:id="L"><abbr type="siglum">L</abbr> = Codex Leidensis BPL 16 B</witness>
+          <witness xml:id="B"><abbr type="siglum">B</abbr> = Codex Mediceus Laurentianus 68.5 a.
+            1450-1460</witness>
+          <witness xml:id="B2"><abbr type="siglum">B<hi rend="superscript">2</hi></abbr> = Codex
+            Mediceus Laurentianus 68.2 a. 1450-1460(manus posterior)</witness>
+          <witness xml:id="Hol"><abbr type="siglum">Hol</abbr> = Codex Holkhamicus 359 a.
+            1470-1480</witness>
           <witness xml:id="Put."><abbr type="siglum">Put.</abbr> = Puteolanus 1476</witness>
           <witness xml:id="Spir."><abbr type="siglum">Spir.</abbr> = Spira 1472/3</witness>
           <witness xml:id="Acid."><abbr type="siglum">Acid. </abbr> = Acidalius 1607</witness>
           <witness xml:id="Lips."><abbr type="siglum">Lips. </abbr> = Lipsius 1607</witness>
-          <witness xml:id="Stuttg2"><abbr type="siglum">Stuttg<hi rend="superscript">2</hi>
-            </abbr> = Exemplar Stutgardianum editionis Spirensis manibus compluribus
-            correctum</witness>
+          <witness xml:id="Madv."><abbr type="siglum">Madv. </abbr> = Madvig Adv. Crit.</witness>
+          <witness xml:id="Purser"><abbr type="siglum">Purser </abbr> = Purser Hermathena 11
+            (1901)</witness>
+          <witness xml:id="Well."><abbr type="siglum">Well. </abbr> = Wellesley Tacitus Annales
+            XI-XVI (1986)</witness>
+          <witness xml:id="Stuttg2"><abbr type="siglum">Stuttg<hi rend="superscript">2</hi></abbr> =
+            Exemplar Stutgardianum editionis Spirensis manibus compluribus correctum</witness>
           <witness xml:id="al."><abbr type="siglum">al.</abbr> = consensus aliorum codicum
             ceteriorum</witness>
         </listWit>
@@ -74,13 +84,14 @@
           <head>Title of First Part</head>
           <ab n="27">
             <seg n="1">At postera luce duae praetoriae cohortes armatae templum Genetricis Veneris <app>
-                <lem source="#Stuttg2 #L #al.">insedere</lem>
+                <lem wit="#Stuttg2 #L #al.">insedere</lem>
                 <note>(Put.)</note>
               </app>; aditum senatus globus togatorum obsederat non occultis gladiis, dispersique
               per fora ac basilicas cunei militares. inter quorum aspectus et minas ingressi curiam
               senatores, et oratio principis per quaestorem eius audita est</seg>: <seg n="2">nemine
               nominatim compellato patres arguebat, quod publica munia desererent eorumque exemplo
-              equites Romani ad <app><lem wit="#M">segnitiam</lem>
+              equites Romani ad <app>
+                <lem wit="#M">segnitiam</lem>
                 <rdg wit="#al.">segnitiem</rdg>
               </app>
               <app>
@@ -98,6 +109,21 @@
                 <rdg wit="#Acid.">haud adueniri</rdg>
               </app>, cum plerique adepti consulatum et sacerdotia hortorum potius amoenitati
               inseruirent? quod velut telum corripuere accusatores</seg>.</ab>
+          <ab n="28"><seg n="1">Et initium faciente Cossutiano, <app> <lem wit="#L #Stuttg2 #al.">maiore ui</lem><rdg wit="#M">maior ęui</rdg></app> Marcellus summam rem publicam agi
+            clamitabat: contumacia inferiorum lenitatem imperitantis deminui; nimium mites ad eam
+            diem patres, qui Thraseam desciscentem, qui generum eius Heluidium Priscum in isdem
+            furoribus, simul Paconium Agrippinum, paterni in principes odii heredem, et Curtium
+            Montanum detestanda carmina factitantem eludere impune sinerent.</seg> <seg n="2">requirere se in
+            senatu consularem, in uotis sacerdotem, in iure iurando ciuem, nisi contra instituta et
+            caerimonias maiorum proditorem palam et hostem Thrasea induisset. denique ageret
+            senatorem et, principis obtrectatores protegere solitus, ueniret, censeret quid corrigi
+            aut mutari uellet: facilius perlaturos singula increpanti<supplied reason="lost"
+              >s</supplied> u<supplied reason="lost">oce</supplied>m quam nunc silentium perferrent
+            omnia damnantis.</seg> <seg n="3">pacem illi per orbem terrae an uictorias sine damno exercituum
+            displicere? ne hominem bonis publicis maestum, et qui fora theatra templa pro solitudine
+            haberet, qui minitaretur exilium suum, ambitionis prauae compotem facerent; non illi
+            consulta haec, non magistratus aut Romanam urbem uideri; abrumperet uitam ab ea ciuitate
+            cuius caritatem olim, nunc et aspectum exuisset.</seg> </ab>
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
         <div type="textpart" n="2" xml:id="part2">
