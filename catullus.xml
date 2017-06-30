@@ -53,7 +53,10 @@
           from the @xml:id's assigned to the various items in the
           bibliography). The list of sigla may be generated automatically. -->
           <listWit>
-            <witness></witness>
+            <witness xml:id="servius"><abbr type="siglum">Servius</abbr></witness>
+            <witness xml:id="past"><abbr type="siglum">Pastrengicus</abbr> = <title>Pastrstrengicus, De Originibus Rerum</title></witness>
+            <witness xml:id="V"><abbr type="siglum">V</abbr> = <title> fons communis codicum OGR
+            (nunc deperditus)</title></witness>
           </listWit>
         </div>
       </div>
@@ -64,7 +67,7 @@
           <head>Title of First Part</head>
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         <l>Cui dono lepidum novum libellum</l>
-<l><app><lem wit="#servius#past#V">arida modo pumice expolitum?</l>
+<l><app><lem wit="#servius #past #V">arida</lem></app> modo pumice expolitum?</l>
 <l>Corneli, tibi: namque tu solebas</l>
 <l>meas esse aliquid putare nugas</l>
 <l>iam tum, cum ausus es unus Italorum</l>
@@ -76,7 +79,7 @@
           
           <ab>1 2 arida Servius, Pastrengicus, V?, arido OGR  punice R corr. R²  5 tum ε: tamen V
 es ε: est V  6 evum (euū) O, Pastrengicus: eum GR, corr R²  8 habe tibi η: tibi habe V
-libelli] al. mei G¹R²  9 <o> add. θ, est (ē) Statius  quidem 1472 (qualecumque quidem
+libelli] al. mei G¹R²  9 &lt;o> add. θ, est (ē) Statius  quidem 1472 (qualecumque quidem
 est, patroni ut ergo Bergk)  10 perire O</ab> 
           
         </div>
